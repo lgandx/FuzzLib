@@ -159,7 +159,7 @@ class SMB2Nego(Packet):
         ("Context3Len",              "\x1a\x00"),
         ("Context3Reserved",         "\x00\x00\x00\x00"),
         ("Context3NetName",          "192.168.0.176"),#your IP.
-        ("Data",             ""), # We can this field at the end of the packet so we're able to add some fuzzed data at the end of the packet and have all the lenghts correct.
+        ("Data",             ""), # We can add this field at the end of the packet so we're able to add some fuzzed data at the end of the packet and have all the lenghts correct.
 
     ])
     
